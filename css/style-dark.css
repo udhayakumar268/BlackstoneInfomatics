@@ -1,0 +1,188 @@
+:root {
+    --bg-white: #090931;
+    --bg-silver: #151540;
+    --bg-silver-light: #151540;
+    --text-black: #ffffff;
+    --text-silver: #45454f;
+    --border-color: #4d4b4b;
+    --body-font-color: #cccccc;
+    --heading-font-color: var(--text-white);
+    --webex-secondary-color: #0b0b38;
+    --border-color: #242450;
+    --form-text-color: #a9a6a6
+}
+
+body {
+    background-color: var(--webex-secondary-color);
+    color: #ccc
+}
+
+[data-overlay-light]:before {
+    background: var(--webex-secondary-color)
+}
+
+[data-overlay-dark]:before {
+    background: var(--webex-secondary-color)
+}
+
+p,
+.header-style-two .header-wrapper .header-navigation-area .main-menu ul li a {
+    color: #fff
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.funfact .counter {
+    color: var(--text-white)
+}
+
+.bg-white {
+    background-color: var(--bg-white) !important
+}
+
+.text-webex-secondary-color {
+    color: #ffffff
+}
+
+.bg-secondary-color,
+.bg-silver,
+.header-style-two .header-wrapper .header-navigation-area,
+.header-style-two .header-wrapper .header-navigation-area .main-menu ul li ul.sub-menu,
+.header-searchbox-style-two .toggle-searchbox.show,
+.about-image-box .experience,
+.service-item-box .service-item-content,
+.team-block .team-bottom-part,
+.news-description,
+.news-description,
+.side-panel-content,
+.header-style-02 .header-topbar,
+.header-style-03 .header-topbar,
+.request-a-call-back-form-section-style1 .request-a-call-back-area,
+.nice-select .list,
+.service-style1 .thumb .visible_title_area,
+.features-item-style1,
+.skills2.white-bg .skill-item .skill-bar .bar-inner,
+.service-style3 .service-inner,
+.about-image-box-style3 .years-of-experience,
+.request-a-call-back-form-section-style3 .request-a-call-back-form-style3 {
+    background: var(--bg-silver)
+}
+
+.request-a-call-back-form-section-style1 .request-a-call-back-area .request-a-call-back-form .nice-select,
+.nice-select .option:hover,
+.nice-select .option.focus,
+.nice-select .option.selected.focus,
+.news-wrapper-style1 .news-description,
+.testimonial-style1 .testimonial-item,
+.footer-copyright-area,
+.footer-widget .social-list li a,
+.working-process-wrapper .process-item .process-icon-box .process-icon,
+.request-a-call-back-form-section-style3 .request-a-call-back-form-style3 .contact-info .contact-info-icon i,
+.skills2.white-bg.dark-layout .skill-item .skill-bar .bar-inner,
+.service-style3.dark-layout .service-inner,
+.feature-item-style2 {
+    background: var(--bg-white)
+}
+
+.header-style-two .header-wrapper .header-navigation-area .main-menu ul li ul.sub-menu li {
+    border-bottom: 1px solid #222537 !important
+}
+
+.client-item img {
+    filter: invert(0)
+}
+
+.signature img {
+    filter: invert(1)
+}
+
+.news-wrapper {
+    box-shadow: none
+}
+
+.side-panel-content {
+    height: 102vh
+}
+
+.person-object:after {
+    z-index: 1
+}
+
+.social-list li a {
+    background: #212641
+}
+
+.theme-btn-6 {
+    border: 1px solid var(--border-color);
+    color: #fff
+}
+
+.header-style-02 .main-menu .main-menu-inner .main-menu-right .mobile-nav-toggler span {
+    background: #fff
+}
+
+.service-style1 .thumb .visible_title_area .icon,
+.header-style-02 .main-menu .main-menu-inner .main-menu-right .search-toggler,
+.header-style-04 .main-menu .main-menu-wrapper .main-menu-right .search-toggler {
+    border-right-color: var(--border-color)
+}
+
+.team-style2 .team-item .team-content-block .team-social-icons {
+    border-top: 1px solid var(--border-color)
+}
+
+.testimonial-style2 .testimonial-item .testimonial-content-block .testimonial-text {
+    border-bottom: 1px solid var(--border-color)
+}
+
+.nice-select:hover,
+.news-wrapper-style1 .news-description,
+.yearlyPrice,
+.monthlyPrice,
+.news-wrapper-style2 .news-description {
+    border-color: var(--border-color)
+}
+
+.form-control,
+.form-control:focus,
+.request-a-call-back-form .custom-select-categories,
+.header-searchbox-style-two .toggle-searchbox #searchform-all #s,
+.nice-select,
+.newsletter-from .email input[type="email"],
+.request-a-call-back-form-style2 .nice-select,
+.request-a-call-back-form-section-style3 .request-a-call-back-form-style3 .request-a-call-back-form .nice-select {
+    border: 1px solid var(--border-color);
+    background: var(--bg-white);
+    color: var(--form-text-color)
+}
+
+.form-control::placeholder {
+    color: #a9a6a6
+}
+
+.form-control:-ms-input-placeholder {
+    color: #a9a6a6
+}
+
+.form-control::-ms-input-placeholder {
+    color: #a9a6a6
+}
+
+.request-a-call-back-form-section-style1 .request-a-call-back-area {
+    background-image: none
+}
+
+.request-a-call-back-form-section-style1 .request-a-call-back-area .request-a-call-back-form .nice-select {
+    color: var(--form-text-color)
+}
+
+.footer-main-area,
+.footer-bottom-area {
+    background: var(--bg-silver)
+}
+
+/*# sourceMappingURL=style-dark.css.map */
